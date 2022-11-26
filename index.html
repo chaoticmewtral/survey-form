@@ -9,10 +9,12 @@
 </head>
 <body>
     <h1 id="title">Favorite D&amp;D Things Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <p id="description">Thanks for giving your opinion about the best aspects of Dungeons &amp; Dragons!</p>
     <main>
-        <form action="">
-
+        <form id="survey-form">
+            <label for="name" id="name-label">Name: <input type="text" name="name" id="name" required placeholder="Taliesin"></label>
+            <label for="email" id="email-label">Email: <input type="email" name="email" id="email" required placeholder="strahd@barovia.com"></label>
+            <label for="number" id="number-label">How many years have you been playing D&amp;D? <input type="number" name="number" id="number" min="0" max="120" placeholder="1"></label>
         </form>
     </main>
     <footer>
