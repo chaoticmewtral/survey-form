@@ -25,12 +25,61 @@
             <fieldset>
                 <p>What kind of player are you?</p>
                 <label for="magic">
-                    <input type="radio" name="player-type" id="magic">Magic
+                    <input type="radio" name="player-type" value="magic" id="magic">Magic
                 </label>
                 <label for="melee">
-                    <input type="radio" name="player-type" id="melee">Melee
+                    <input type="radio" name="player-type" value="melee" id="melee">Melee
                 </label>
             </fieldset>
+            <fieldset>
+                <p>What classes do you like to play? (Select all that apply)</p>
+                <div>
+                    <label for="barbarian">
+                        <input type="checkbox" value="barbarian" id="barbarian">Barbarian
+                    </label>
+                    <label for="bard">
+                        <input type="checkbox" value="bard" id="bard">Bard
+                    </label>
+                    <label for="cleric">
+                        <input type="checkbox" value="cleric" id="cleric">Cleric
+                    </label>
+                    <label for="druid">
+                        <input type="checkbox" value="druid" id="druid">Druid
+                    </label>
+                    <label for="fighter">
+                        <input type="checkbox" value="fighter" id="fighter">Fighter
+                    </label>
+                    <label for="monk">
+                        <input type="checkbox" value="monk" id="monk">Monk
+                    </label>
+                    <label for="paladin">
+                        <input type="checkbox" value="paladin" id="paladin">Paladin
+                    </label>
+                    <label for="ranger">
+                        <input type="checkbox" value="ranger" id="ranger">Ranger
+                    </label>
+                    <label for="rogue">
+                        <input type="checkbox" value="rogue" id="rogue">Rogue
+                    </label>
+                    <label for="sorcerer">
+                        <input type="checkbox" value="sorcerer" id="sorcerer">Sorcerer
+                    </label>
+                    <label for="warlock">
+                        <input type="checkbox" value="warlock" id="warlock">Warlock
+                    </label>
+                    <label for="wizard">
+                        <input type="checkbox" value="wizard" id="wizard">Wizard
+                    </label>
+                    <label for="artificer">
+                        <input type="checkbox" value="artificer" id="artificer">Artificer
+                    </label>
+                    <label for="blood-hunter">
+                        <input type="checkbox" value="blood-hunter" id="blood-hunter">Blood Hunter
+                    </label>
+                    </div>
+            </fieldset>
+            <label for="comments"><textarea name="comments" id="comments" cols="30" rows="10">Any additional comments?</textarea></label>
+            <button id="submit">Submit</button>
         </form>
     </main>
     <footer>
